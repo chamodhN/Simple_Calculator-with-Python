@@ -1,11 +1,7 @@
 from tkinter import *
-from PIL import ImageTk,Image
-root = Tk()
-image_address = "home/kavindu/Desktop/pythonist/calculator.ico"
-root.title('Simple Calculator')
-root.iconbitmap(image_address)
 
-image_address = "home/kavindu/Desktop/pythonist/calculator.ico"
+root = Tk()
+
 
 
 e  = Entry(root,borderwidth=1,width=35)
